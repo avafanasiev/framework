@@ -1,0 +1,39 @@
+exclude:
+  - name: PhpStrictTypeCheckingInspection
+  - name: PhpWrongForeachArgumentTypeInspection
+  - name: PhpMissingParamTypeInspection
+  - name: PhpParamsInspection
+  - name: PhpArithmeticTypeCheckInspection
+  - name: PhpRedundantTypeInUnionTypeInspection
+  - name: PhpIllegalStringOffsetInspection
+  - name: PhpIllegalArrayKeyTypeInspection
+  - name: PhpFieldAssignmentTypeMismatchInspection
+  - name: PhpMissingReturnTypeInspection
+  - name: PhpIncompatibleReturnTypeInspection
+  - name: PhpMissingStrictTypesDeclarationInspection
+  - name: PhpMissingFieldTypeInspection
+  - name: PhpUndefinedNamespaceInspection
+  - name: PhpUndefinedMethodInspection
+  - name: PhpUndefinedVariableInspection
+  - name: PhpUndefinedFieldInspection
+  - name: PhpUndefinedClassInspection
+  - name: PhpUndefinedFunctionInspection
+  - name: PhpUndefinedGotoLabelInspection
+  - name: PhpUndefinedClassConstantInspection
+  - name: PhpUndefinedCallbackInspection
+  - name: PhpUndefinedConstantInspection
+  - name: PhpPossiblePolymorphicInvocationInspection
+  - name: PhpDocMissingThrowsInspection
+  - name: PhpIllegalPsrClassPathInspection
+  - name: PhpFullyQualifiedNameUsageInspection
+  - name: PhpMultipleClassesDeclarationsInOneFile
+  - name: PhpUnhandledExceptionInspection
+  - name: Annotator
+  - name: SyntaxError
+  - name: PhpComposerExtensionStubsInspection
+  - name: All
+    paths:
+      - tests
+      - tools
+      - vendor
+      - bin
